@@ -62,14 +62,14 @@ const HeaderOne = ({variant}) => {
                                         <i className="flaticon-loupe"></i>
                                     </span>
                                 </div>
-                            </div>
+                            </div>*/}
                             <div className="header__area-menubar-right-box-sidebar">
                                 <div className="header__area-menubar-right-box-sidebar-popup-icon" onClick={() => setSidebarOpen(true)}>
                                     <span className="bar-1"></span>
                                     <span className="bar-2"></span>
                                     <span className="bar-3"></span>
                                 </div>
-                            </div> */}
+                            </div> 
                             <div className="header__area-menubar-right-box-btn">
                                 <Link className="btn-one" href="/contact">Contactez-nous<i className="fas fa-arrow-right"></i></Link>
                             </div>

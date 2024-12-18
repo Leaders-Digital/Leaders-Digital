@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const BannerOne = () => {
     return (
-            <>
-            <div className="banner__one"> 
+        <>
+            <div className="banner__one">
                 <div className="banner-shape">
                     <div className="shape banner-shape-1"></div>
                     <div className="shape banner-shape-2"></div>
@@ -19,10 +19,10 @@ const BannerOne = () => {
                     <div className="row align-items-center gy-4 justify-content-center">
                         <div className="col-xl-6 col-lg-6">
                             <div className="banner__one-content">
-                                <span className="subtitle-one">Digital Growth</span>
-                                <h2>Blueprints for Digital <span>Excellence</span></h2>
-                                <p>Our team about exploring new possibilities and embracing emerging trends to deliver transformative IT solutions</p>
-                                <Link href="/services" className="btn-two">Find Solutions
+                                <span className="subtitle-one">We brand your business</span>
+                                <h2>Accélérez votre <span>Transformation Digitale</span></h2>
+                                <p>Nous vous aidons à naviguer dans l'univers numérique en vous fournissant des solutions sur mesure pour booster votre croissance et performance.</p>
+                                <Link href="/services" className="btn-two">Découvrez nos solutions
                                     <i className="fas fa-arrow-right"></i>
                                 </Link>
                             </div>
@@ -34,12 +34,14 @@ const BannerOne = () => {
                                         <div className="shape shape-1"></div>
                                         <div className="shape shape-2"></div>
                                     </div>
-                                    <img src={banner1.src} alt="banner-image" />
+                                    <img src={banner1.src} alt="image-bannière" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </>
 

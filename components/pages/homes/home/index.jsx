@@ -18,17 +18,17 @@ const HomeOne = () => {
         <div>
             <SEO pageTitle='Leaders Digital' />
             <HeaderOne />
-            {/* <BannerOne /> */}
-            {/* <About />
-            <ChooseUs />
-            <Features />
-            <Portfolio />
-            <Pricing />
+            <BannerOne />
+            <About />
+             <ChooseUs />
+          <Features />
+           <Portfolio />
+              {/* <Pricing />
             <WorkArea />
             <Testimonial />
             <Blog /> */}
-            {/* <FooterOne />
-            <ScrollToTop /> */}
+            <FooterOne />
+            <ScrollToTop />
         </div>
     );
 };

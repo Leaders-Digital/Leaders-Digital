@@ -9,18 +9,22 @@ import FormArea from "./form";
 const ContactUs = () => {
     return (
         <>
-            <SEO pageTitle="Contact Us" />        
+            <SEO pageTitle="Contactez-nous" />
             <HeaderOne />
-            <BreadCrumb title="Contact Us" innerTitle="Contact Us" />
+            <BreadCrumb title="Contactez-nous" innerTitle="Contactez-nous" />
             <div className="contact__two section-padding">
                 <div className="container">
                     <div className="row gy-4 align-items-center">
                         <div className="col-xl-6">
                             <div className="contact__two-content">
                                 <div className="contact__two-title">
-                                    <span className="subtitle-one">Contact us</span>
-                                    <h2>Do you have any question? </h2>
-                                    <p>For your car we will do everything  advice, repairs and maintenance. We are the some preferred choice by many car owners because</p>
+                                    <span className="subtitle-one">Contactez-nous</span>
+                                    <h2>Besoin d'une solution digitale ?</h2>
+                                    <p>
+                                        Chez Leaders Digital, nous vous accompagnons dans la transformation
+                                        digitale de votre entreprise. Contactez-nous pour des solutions
+                                        innovantes adaptées à vos besoins.
+                                    </p>
                                 </div>
                                 <div className="contact__two-form">
                                     <FormArea />
@@ -31,48 +35,50 @@ const ContactUs = () => {
                             <div className="contact__two-contact-info">
                                 <div className="contact__two-single-info">
                                     <div className="contact__two-single-info-icon">
-                                        <img src="assets/img/icon//service-1.png" alt="image" />
+                                        <img src="assets/img/icon//service-1.png" alt="email" />
                                     </div>
                                     <div className="contact__two-single-info-content">
                                         <h4>Email</h4>
-                                        <span>michelle.rivera@example.com</span>
-                                        <span>willie.jennings@example.com</span>
+                                        <span>contact@leadersdigital.com</span>
+                                        <span>support@leadersdigital.com</span>
                                     </div>
                                 </div>
                                 <div className="contact__two-single-info">
                                     <div className="contact__two-single-info-icon">
-                                        <img src="assets/img/icon//service-2.png" alt="image" />
+                                        <img src="assets/img/icon//service-2.png" alt="contact" />
                                     </div>
                                     <div className="contact__two-single-info-content">
                                         <h4>Contacts</h4>
-                                        <span>(270) 555-0117</span>
-                                        <span>(704) 555-0127</span>
+                                        <span>(+216) 22 000 000</span>
+                                        <span>(+216) 22 000 000</span>
                                     </div>
                                 </div>
                                 <div className="contact__two-single-info">
                                     <div className="contact__two-single-info-icon">
-                                        <img src="assets/img/icon//service-3.png" alt="image" />
+                                        <img src="assets/img/icon//service-3.png" alt="horaires" />
                                     </div>
                                     <div className="contact__two-single-info-content">
-                                        <h4>Date</h4>
-                                        <span>Saturday 10.Am To 2.Pm</span>
-                                        <span>Sunday 2.Pm To 7.Pm</span>
+                                        <h4>Horaires</h4>
+                                        <span>Lundi - Vendredi : 8:30h à 17:30h</span>
+                                        <span>Samedi : 8h à 13h</span>
                                     </div>
                                 </div>
                                 <div className="contact__two-single-info">
                                     <div className="contact__two-single-info-icon">
-                                        <img src="assets/img/icon/service-4.png" alt="image" />
+                                        <img src="assets/img/icon/service-4.png" alt="adresse" />
                                     </div>
                                     <div className="contact__two-single-info-content">
-                                        <h4>Location</h4>
-                                        <span>8502 Preston Rd. Inglewood, Maine 98380</span>
-                                    </div>    
+                                        <h4>Adresse</h4>
+                                        <span>Cité des Pins, Les berges du lac 2 1053 Tunis, Tunisie</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
             <FooterOne />
             <ScrollToTop />
         </>

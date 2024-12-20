@@ -20,13 +20,13 @@ const HomeOne = () => {
             <HeaderOne />
             <BannerOne />
             <About />
-             <ChooseUs />
-          <Features />
-           <Portfolio />
-              {/* <Pricing />
-            <WorkArea />
+            <ChooseUs />
+            <Features />
+            <Portfolio />
+            {/* <Pricing />
+            <WorkArea />*/}
             <Testimonial />
-            <Blog /> */}
+            {/* <Blog />  */}
             <FooterOne />
             <ScrollToTop />
         </div>

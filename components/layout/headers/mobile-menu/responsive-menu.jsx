@@ -18,11 +18,8 @@ const ResponsiveMenu = () => {
                 <li className='menu-item-has-children'>
                     <Link href='#'>Home</Link>
                     <ul className='sub-menu' style={activeSubMenu("home")}>
-                        <li><Link href="/">Home 01</Link></li>
-                        <li><Link href="/home-two">Home 02</Link></li>
-                        <li><Link href="/home-three">Home 03</Link></li>
-                        <li><Link href="/home-four">Home 04</Link></li>
-                        <li><Link href="/home-five">Home 05</Link></li>
+                        <li><Link href="/">Accueil</Link></li>
+                       
                     </ul>
                     <a className={`mean-expand ${activeIcon("home")}`} onClick={() => active("home")}></a>
                 </li>  

@@ -35,7 +35,7 @@ const HeaderOne = ({variant}) => {
                     </div>
                     <div className="col-xl-5 col-md-5">
                         <div className="top__bar-right">
-                            <Link href="https://www.google.com/maps"><i className="fas fa-map-marker-alt"></i>Lac 2 test 2000</Link>
+                            <Link href="https://www.google.com/maps"><i className="fas fa-map-marker-alt"></i>Cité des Pins, Les berges du lac 2 1053 Tunis, Tunisie</Link>
                         </div>
                     </div>
                 </div>

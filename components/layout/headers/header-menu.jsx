@@ -4,21 +4,18 @@ const MainMenu = () => {
     return (
         <>
             <ul>
-                <li><Link href="/contact">Accueil</Link></li>
-                <li><Link href="/contact">À propos</Link></li>
+                <li><Link href="/">Accueil</Link></li>
+                <li><Link href="/about">À propos</Link></li>
 
                 <li className="menu-item-has-children"><Link href="#">Service <i className="fas fa-angle-down"></i></Link>
                     <ul className="sub-menu">
 
                         <li className="menu-item-has-children"><Link href="#">Développement Web<i className="fas fa-angle-right"></i></Link>
                             <ul className="sub-menu">
-                                <li><Link href="/team">Création de sites vitrines</Link></li>
-                                <li><Link href="/team-two">Développement de sites e-commerce</Link></li>
-                                <li><Link href="/team-two">Développement de sites sur mesure</Link></li>
-                                <li><Link href="/team-two">Création de CRM personnalisés</Link></li>
-                                <li><Link href="/team-two">Refonte de site existant</Link></li>
-                                <li><Link href="/team-two">Maintenance et support technique</Link></li>
-
+                                <li><Link href="/vitrine-website">Création de sites vitrines</Link></li>
+                                <li><Link href="/e-commerce-website">Développement de sites e-commerce</Link></li>
+                                <li><Link href="/crm">Création de CRM personnalisés</Link></li>
+                                <li><Link href="/maintenance">Maintenance et support technique</Link></li>
                             </ul>
                         </li>
 

@@ -12,7 +12,7 @@ const FooterOne = () => {
 				<div className="container">
 					<div
 						className="row justify-content-center text-center subscribe__one-content"
-						style={{ backgroundImage: `url(${ctaBg.src})` }}
+						// style={{ backgroundImage: `url(${ctaBg.src})` }}
 					>
 						<div className="col-xl-7 col-lg-8">
 							<div className="subscribe__one-title">

@@ -44,17 +44,10 @@ const PortfolioDetailsMain = ({singleData}) => {
                                 </div>
                                 <ul>
                                     <li>Nom :<span>{singleData.title}</span></li>
-                                    <li>Description :<span>Rajin Saleh</span></li>
-                                    <li>Lien du site web :<span>23 December,2023</span></li>
-                                    <li>Tags:<span>DataMasters</span></li>
-                                    <li>Valeur :<span className="value">$ 240</span></li>
-                                    <li className="project-rating">
-                                        <i className="fas fa-star"></i>
-                                        <i className="fas fa-star"></i>
-                                        <i className="fas fa-star"></i>
-                                        <i className="fas fa-star"></i>
-                                        <i className="fas fa-star"></i>
-                                    </li>
+                                    <li>Description :<span>{singleData.subdis}</span></li>
+                                    <li>Lien du site web :<span><a href={singleData.link}>Cliquez ici</a></span></li>
+                                    <li>Tags:<span>{singleData.tags}</span></li>
+                                 
                                 </ul>
                             </div>
                         </div>
@@ -62,24 +55,25 @@ const PortfolioDetailsMain = ({singleData}) => {
                     <div className="col-xl-8">
                         <div className="project__details-content">
                             <div className="project__details-content-mid">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galltype and scrambled it to make a type specimen book. It has survived not only five centuries tinto electronic typesetting remaining essentially unchanged Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
-                                <h3>Enabling Seamless IT Experiences</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galltype and scrambled it to make a type specimen book</p>
-                                <p>. It has survived not only five centuries tinto electronic typesetting remaining essentially unchanged Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                                <p>{singleData.description1}</p>
+                                <h3>{singleData.subtitle}</h3>
+                                <p>{singleData.description2}</p>
+
                             </div>
                         </div>
                     </div>
                     <div className="project__details-images">
-                        <img src={image1.src} alt="image" />
-                        <img src={image2.src} alt="image" />
+                  
+                        <img src={image3.src} alt="image" />
+                              <img src={singleData.image3.src} alt="image" />
                     </div>
                     <div className="project__details-images">
                         <img src={image3.src} alt="image" />
-                        <img src={image3.src} alt="image" />
+                        <img src={image2.src} alt="image" />
                     </div>
                     <div className="project__details-content">
                         <div className="project__details-content-bottom">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industr standard dummy text ever since the 1500s, when an unknown printer took a galltype and scrambled it to make a type specimen book. It has survived a only five centuries tinto electronic typesetting remaining essentially unchanged Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                            <p>{singleData.description3}</p>
                         </div>
                     </div>
                 </div>

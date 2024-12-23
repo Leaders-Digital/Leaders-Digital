@@ -1,8 +1,7 @@
 import icon from '../../../../public/assets/img/icon/project-details-icon.png';
 import image1 from '../../../../public/assets/img/portfolio/project-details.png';
-import image2 from '../../../../public/assets/img/portfolio/project-details-2.png';
+import image2 from '../../../../public/assets/img/portfolio/image1.jpg';
 import image3 from '../../../../public/assets/img/portfolio/project-details.png';
-import image4 from '../../../../public/assets/img/portfolio/project-details-2.png';
 
 const PortfolioDetailsMain = ({singleData}) => {
     return (

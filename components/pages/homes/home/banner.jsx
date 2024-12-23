@@ -22,7 +22,7 @@ const BannerOne = () => {
                                 <span className="subtitle-one">We brand your business</span>
                                 <h2>Accélérez votre <span>Transformation Digitale</span></h2>
                                 <p>Nous vous aidons à naviguer dans l'univers numérique en vous fournissant des solutions sur mesure pour booster votre croissance et performance.</p>
-                                <Link href="/services" className="btn-two">Découvrez nos solutions
+                                <Link href="#" className="btn-two">Découvrez nos solutions
                                     <i className="fas fa-arrow-right"></i>
                                 </Link>
                             </div>

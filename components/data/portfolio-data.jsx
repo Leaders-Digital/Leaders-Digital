@@ -9,6 +9,7 @@ import imagebusiness from "../../public/assets/img/portfolio/business/1.jpg";
 
 
 const portfolioData = [
+
     {        
         id: 'leadersbuilding',
         title: 'Leaders Building',
@@ -24,6 +25,7 @@ const portfolioData = [
         image3: image4,        
         image4: image1,     
     },
+
     {        
         id: 'makeup',
         title: 'Leaders Makeup',
@@ -39,6 +41,7 @@ const portfolioData = [
         image3: image4,        
         image4: image1,     
     },
+
     {        
         id: 'leadersimmo',
         title: 'Leaders Immobilier',
@@ -61,15 +64,18 @@ const portfolioData = [
         subdis: 'Cabinet du conseil en stratégie et Management',
         link: "https://leaders-building.com/",  
         tags: "Web, CRM, Charte Graphique",  
-        description1: "Leaders Business est un cabinet de conseil en stratégie et management intervenant dans divers secteurs. Pour accompagner leur croissance et renforcer leur présence digitale, nous avons développé un projet complet englobant la création d’un site web moderne et la conception d’une charte graphique élégante et professionnelle.",
-        description2: "  Le site web conçu pour Leaders Business offre une interface conviviale, mettant en valeur leurs services et expertises dans différents secteurs. La charte graphique assure une identité visuelle forte et cohérente, reflétant leur leadership et leur professionnalisme.",
-        description3: "En outre, nous avons pris en charge la gestion de leurs réseaux sociaux, avec des publications adaptées à leur audience cible, ainsi que des vidéos courtes (reels) pour renforcer l’interaction avec leurs clients et partenaires.",
+        description1: " Leaders Business est un cabinet de conseil en stratégie et management intervenant dans divers secteurs. Pour accompagner leur croissance et renforcer leur présence digitale, nous avons développé un projet complet englobant la création d’un site web moderne et la conception d’une charte graphique élégante et professionnelle.",
+        description2: " Le site web conçu pour Leaders Business offre une interface conviviale, mettant en valeur leurs services et expertises dans différents secteurs. La charte graphique assure une identité visuelle forte et cohérente, reflétant leur leadership et leur professionnalisme.",
+        description3: " En outre, nous avons pris en charge la gestion de leurs réseaux sociaux, avec des publications adaptées à leur audience cible, ainsi que des vidéos courtes (reels) pour renforcer l’interaction avec leurs clients et partenaires.",
         subtitle: 'Un Positionnement Digital Stratégiquement Pensé',
         image: imagebusiness,        
         image2: image1,        
         image3: image4,        
         image4: image1,     
     },
+
+   
+    
    
 ];
 

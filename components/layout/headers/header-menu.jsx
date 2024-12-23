@@ -21,7 +21,7 @@ const MainMenu = () => {
 
                         <li className="menu-item-has-children"><Link href="#">Développement Mobile<i className="fas fa-angle-right"></i></Link>
                             <ul className="sub-menu">
-                                <li><Link href="/team">Applications mobiles iOS et Android</Link></li>
+                                <li><Link href="/mobile">Applications mobiles iOS et Android</Link></li>
                                 <li><Link href="/team-two">Création d’applications PWA</Link></li>
                                 <li><Link href="/team-two">Refonte et maintenance d’applications mobiles</Link></li>
                                 <li><Link href="/team-two">Tests et déploiement sur les stores</Link></li>

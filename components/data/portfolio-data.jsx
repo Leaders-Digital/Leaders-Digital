@@ -9,7 +9,7 @@ const portfolioData = [
     {        
         id: 'makeup',
         title: 'Leaders Makeup',
-        subtitle: '',
+        subtitle: 'ddddddddd',
         image: image1,        
     },
     {        

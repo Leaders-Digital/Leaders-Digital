@@ -1,6 +1,8 @@
 import icon from '../../../../public/assets/img/icon/project-details-icon.png';
 import image1 from '../../../../public/assets/img/portfolio/project-details.png';
 import image2 from '../../../../public/assets/img/portfolio/project-details-2.png';
+import image3 from '../../../../public/assets/img/portfolio/project-details.png';
+import image4 from '../../../../public/assets/img/portfolio/project-details-2.png';
 
 const PortfolioDetailsMain = ({singleData}) => {
     return (
@@ -38,14 +40,14 @@ const PortfolioDetailsMain = ({singleData}) => {
                             <img src={singleData.image.src} alt="image" />
                             <div className="project-info">
                                 <div className="project-info-top">
-                                    <h4>Project Details</h4>
+                                    <h4>Détails du Projet</h4>
                                 </div>
                                 <ul>
-                                    <li>Name:<span>{singleData.title}</span></li>
-                                    <li>Author:<span>Rajin Saleh</span></li>
-                                    <li>Date:<span>23 December,2023</span></li>
+                                    <li>Nom :<span>{singleData.title}</span></li>
+                                    <li>Description :<span>Rajin Saleh</span></li>
+                                    <li>Lien du site web :<span>23 December,2023</span></li>
                                     <li>Tags:<span>DataMasters</span></li>
-                                    <li>Value:<span className="value">$ 240</span></li>
+                                    <li>Valeur :<span className="value">$ 240</span></li>
                                     <li className="project-rating">
                                         <i className="fas fa-star"></i>
                                         <i className="fas fa-star"></i>
@@ -70,6 +72,10 @@ const PortfolioDetailsMain = ({singleData}) => {
                     <div className="project__details-images">
                         <img src={image1.src} alt="image" />
                         <img src={image2.src} alt="image" />
+                    </div>
+                    <div className="project__details-images">
+                        <img src={image3.src} alt="image" />
+                        <img src={image3.src} alt="image" />
                     </div>
                     <div className="project__details-content">
                         <div className="project__details-content-bottom">

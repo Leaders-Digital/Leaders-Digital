@@ -81,9 +81,9 @@ const MainMenu = () => {
                     </ul>
                 </li>
 
-                <li><Link href="/contact">Portfolio</Link></li>
+                <li><Link href="/mesprojet">Portfolio</Link></li>
 
-                <li><Link href="/contact">Blog</Link></li>
+                {/* <li><Link href="/contact">Blog</Link></li> */}
 
                 <li><Link href="/contact">Contact</Link></li>
             </ul>

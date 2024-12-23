@@ -57,7 +57,7 @@ const Portfolio = () => {
                             <img src={data.image.src} alt="image" />
                             <div className="portfolio__one-single-portfolio-content">
                                 <h4><Link href={`/portfolio/${data.id}`}>{data.title}</Link></h4>
-                                <span>{data.subtitle}</span>
+                                <Link href={`/portfolio/${data.id}`}> <span>Voir le Projet </span> </Link>
                             </div>
                         </SwiperSlide>
                     ))}

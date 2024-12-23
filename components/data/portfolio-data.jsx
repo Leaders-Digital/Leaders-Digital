@@ -56,22 +56,6 @@ const portfolioData = [
     },
 
     {        
-        id: 'leadersbuilding',
-        title: 'Leaders Building',
-        subdis: 'Entreprise de construction',
-        link: "https://leaders-building.com/",  
-        tags: "Web, CRM, Charte Graphique",  
-        description1: "Leaders Immobilier est une agence immobilière innovante qui a entrepris un projet ambitieux visant à renforcer sa présence digitale et à optimiser ses processus marketing. Le projet inclut le développement d'un site web moderne ainsi que la création d'une charte graphique cohérente et professionnelle.",
-        description2: " Le site web développé pour Leaders Immobilier offre une interface intuitive qui met en avant leurs biens immobiliers avec des informations claires et détaillées, facilitant ainsi les recherches pour leurs clients. La charte graphique assure une identité visuelle forte et élégante, reflétant le professionnalisme de l'agence.",
-        description3: "En complément, nous avons assuré la gestion des postes sur les réseaux sociaux, incluant la production de contenus visuels captivants, tels que des shootings professionnels des biens immobiliers et des vidéos courtes (reels) pour maximiser l'engagement en ligne.",
-        subtitle: 'Une Stratégie Digitale Complète',
-        image: imagebuidling1,        
-        image2: image1,        
-        image3: image4,        
-        image4: image1,     
-    },
-
-    {        
         id: 'leadersbusiness',
         title: 'Leaders Business',
         subdis: 'Cabinet du conseil en stratégie et Management',

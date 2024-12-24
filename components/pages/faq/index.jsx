@@ -11,7 +11,7 @@ const Faq = () => {
         <>        
             <SEO pageTitle='FAQ' />
             <HeaderOne />
-            <BreadCrumb title='Question & Ans.' innerTitle="FAQ's" />
+            <BreadCrumb title='Questions & Réponses' innerTitle="FAQ's" />
             <FaqPage />
             <FooterOne />
             <ScrollToTop />

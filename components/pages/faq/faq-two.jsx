@@ -5,22 +5,23 @@ const FaqOne = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const faqs = [
         {
-            question: "Do you have any Partnerships?",
-            answer: "es, we have several international partnerships as well as some  to help cater to our global clients. For more information, please contact our partnership division through this page."
+            question: "Avez-vous des partenariats ?",
+            answer: "Oui, nous avons plusieurs partenariats internationaux ainsi que des collaborations locales pour répondre aux besoins de nos clients à l'échelle mondiale. Pour plus d'informations, veuillez contacter notre département des partenariats via cette page."
         },
         {
-            question: "What is your approach to cybersecurity?",
-            answer: "We take a proactive and comprehensive approach to cybersecurity, implementing layered security measures to protect your data, applications, and networks from threats."
+            question: "Quelle est votre approche en matière de cybersécurité ?",
+            answer: "Nous adoptons une approche proactive et globale en matière de cybersécurité, en mettant en œuvre des mesures de sécurité multicouches pour protéger vos données, vos applications et vos réseaux contre les menaces."
         },
         {
-            question: "Can I get a free consultation for  needs?",
-            answer: "We offer a free initial consultation to understand your business requirements and propose how our services can assist you. Please use our online booking system or call us directly to schedule your consultation."
+            question: "Puis-je bénéficier d’une consultation gratuite pour mes besoins ?",
+            answer: "Nous offrons une consultation initiale gratuite pour comprendre les besoins de votre entreprise et proposer comment nos services peuvent vous aider. Veuillez utiliser notre système de réservation en ligne ou nous appeler directement pour planifier votre consultation."
         },
         {
-            question: "How can I submit a support ticket?",
-            answer: "For current clients requiring technical support, please visit the Support section of our website and submit a ticket through our automated system. Our technical team aims to respond to all tickets within 24 hours."
+            question: "Comment puis-je soumettre une demande de support ?",
+            answer: "Pour les clients actuels nécessitant une assistance technique, veuillez visiter la section Support de notre site web et soumettre une demande via notre système automatisé. Notre équipe technique s'efforce de répondre à toutes les demandes dans un délai de 24 heures."
         },
     ];
+    
     const toggleFaq = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };

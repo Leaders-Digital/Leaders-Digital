@@ -11,12 +11,12 @@ import ScrollToTop from "../../common/scroll/scroll-to-top";
 const ServicePage = () => {
     return (
         <>
-            <SEO pageTitle="Our Services" />
+            <SEO pageTitle="Nos Services" />
             <HeaderOne />
-            <BreadCrumb title="Our Services" innerTitle="Our Services" />
+            <BreadCrumb title="Nos Services" innerTitle="Nos Services" />
             <ServicesMain />
-            <WorkArea />
-            <Testimonial />
+            {/* <WorkArea />
+            <Testimonial /> */}
             <FooterOne />
             <ScrollToTop />
         </>

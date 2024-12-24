@@ -1,41 +1,36 @@
 
 const servicesData = [
     {
-        id: 'data-analytics',
+        id: 'site-vitrine',
         icon: <i className="flaticon-data-scientist"></i>,
-        title: 'Data Analytics : Your Business in Every Hand',
+        title: 'Des sites vitrines sur mesure',
         des: 'Leverage critical insights & trends from your data',
     },
     {
-        id: 'cloud-computing',
+        id: 'e-commerce-website',
         icon: <i className="flaticon-satellite-signal"></i>,
-        title: 'Cloud Computing : Elevating Your Business Operations',
+        title: 'Développement de sites e-commerce',
         des: 'Optimize scalability and flexibility with cloud solutions',
     },
     {
-        id: 'network-analysis',
+        id: 'crm',
         icon: <i className="flaticon-global-network"></i>,
-        title: 'Network Analysis : Insights Informed Decisions',
+        title: 'Création de CRM personnalisés',
         des: 'Ensure network efficiency and security with comprehensive analysis',
     },
     {
-        id: 'app-development',
-        icon: <i className="flaticon-mobile-app"></i>,
-        title: 'App Development : Guiding Digital Transformation',
+        id: 'maintenance',
+        icon: <i className="flaticon-software-development"></i>,
+        title: 'Maintenance et support technique',
         des: 'Build innovative and user-friendly applications',
     },
     {
-        id: 'software-planning',
-        icon: <i className="flaticon-software-development"></i>,
-        title: 'Software Planning : Protecting Your Digital Assets',
+        id: 'mobile',
+        icon: <i className="flaticon-mobile-app"></i>,
+        title: 'Développement d applications mobiles',
         des: 'Strategize and design robust software solutions',
     },
-    {
-        id: 'cyber-security',
-        icon: <i className="flaticon-cyber-security"></i>,
-        title: 'Cyber Security : Your Reliable Technical Backbone',
-        des: 'Protect your digital assets with advanced security measures',
-    },
+    
 ];
 
 export default servicesData;

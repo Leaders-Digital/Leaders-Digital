@@ -5,22 +5,23 @@ const FaqOne = () => {
     const [activeIndex, setActiveIndex] = useState(1);
     const faqs = [
         {
-            question: "What services do you offer?",
-            answer: "We specialize in a broad range of IT services, including software development, cloud services, cyber security, IT consulting, and tech support. Visit our Services page for detailed information."
+            question: "Quels services proposez-vous ?",
+            answer: "Nous sommes spécialisés dans une large gamme de services digitaux, notamment la création de sites web, le développement d'applications, le marketing numérique, la gestion des réseaux sociaux, et le référencement SEO. Consultez notre page Services pour plus de détails."
         },
         {
-            question: "How can I request a quote for my project?",
-            answer: "Fill out the contact form on this page, providing as many details as possible about your project. A representative will be in touch within one business day to discuss your needs and provide a tailored quote."
+            question: "Comment puis-je demander un devis pour mon projet ?",
+            answer: "Remplissez le formulaire de contact sur cette page en fournissant autant de détails que possible sur votre projet. Un membre de notre équipe vous contactera sous un jour ouvrable pour discuter de vos besoins et vous fournir un devis personnalisé."
         },
         {
-            question: "What is your process for client inquiries?",
-            answer: "We prioritize getting back to you quickly. After an inquiry is submitted, it'll be routed to the appropriate team, who will review your information and respond with the next steps or a request for further details."
+            question: "Quelle est votre démarche pour les demandes des clients ?",
+            answer: "Nous nous engageons à répondre rapidement à vos demandes. Une fois votre demande soumise, elle sera transmise à l'équipe appropriée qui examinera vos informations et vous contactera avec les prochaines étapes ou pour demander des précisions supplémentaires."
         },
         {
-            question: "What are your hours of operation? ",
-            answer: "Our office is open Monday-Friday from 9 AM to 5 PM [Time Zone]. For support outside of these hours, please consult our support package details or use our emergency contact methods outlined above."
+            question: "Quels sont vos horaires d'ouverture ?",
+            answer: "Nos bureaux sont ouverts du lundi au vendredi de 9h à 17h [Fuseau horaire]. Pour un support en dehors de ces heures, veuillez consulter les détails de nos forfaits d'assistance ou utiliser les méthodes de contact d'urgence indiquées."
         },
     ];
+    
     const toggleFaq = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };

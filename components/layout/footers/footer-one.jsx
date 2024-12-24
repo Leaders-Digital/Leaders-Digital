@@ -21,7 +21,7 @@ const FooterOne = () => {
 							<form action="#" className="subscribe__one-form">
 								<input type="email" placeholder="Entrez votre e-mail" />
 								<button className="btn-two" type="submit">
-									S'abonner maintenant
+									S'abonner
 								</button>
 							</form>
 						</div>
@@ -45,7 +45,7 @@ const FooterOne = () => {
 											</div>
 											<div className="footer__two-widget-about-location-item-info">
 												<span>Numéro de téléphone</span>
-												<Link href="tel:(307)555-0133">(+2146) 20 000 000</Link>
+												<Link href="tel:+21627246380">(+216) 27 246 380</Link>
 											</div>
 										</div>
 									</div>
@@ -60,7 +60,7 @@ const FooterOne = () => {
 									<ul>
 										<li><Link href="services"><i className="far fa-chevron-double-right"></i>Services</Link></li>
 										<li><Link href="faq"><i className="far fa-chevron-double-right"></i>FAQ</Link></li>
-										<li><Link href="testimonial"><i className="far fa-chevron-double-right"></i>Témoignages</Link></li>
+										<li><Link href="mesprojet"><i className="far fa-chevron-double-right"></i>Portfolio</Link></li>
 										<li><Link href="about"><i className="far fa-chevron-double-right"></i>À propos de nous</Link></li>
 									</ul>
 								</div>
@@ -70,7 +70,7 @@ const FooterOne = () => {
 						<div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
 							<div className="footer__two-widget">
 								
-								<div className="footer__two-widget-solution">
+								{/* <div className="footer__two-widget-solution">
 									<ul>
 										{servicesData.slice(0, 4).map((data, id) => {
 											const words = data.title.split(' ');
@@ -84,6 +84,14 @@ const FooterOne = () => {
 												</li>
 											);
 										})}
+									</ul>
+								</div> */}
+								<div className="footer__two-widget-solution">
+									<ul>
+										<li><Link href="contact"><i className="far fa-chevron-double-right"></i>Contact</Link></li>
+										<li><Link href="services"><i className="far fa-chevron-double-right"></i>Services</Link></li>
+										<li><Link href="contact"><i className="far fa-chevron-double-right"></i>Obtenir un Devis</Link></li>
+									
 									</ul>
 								</div>
 							</div>

@@ -1,7 +1,7 @@
-import ServicesDetails from '../../../../public/assets/img/service/crm.png';
+import ServicesDetails from '../../../../public/assets/img/service/mobile-developpment.png';
 import image2 from '../../../../public/assets/img/icon/service-details-icon.png';
 
-const     Mobile = ({firstAndSecondWord}) => {
+const Mobile = ({firstAndSecondWord}) => {
     return (
         <>
            <div className="service__details section-padding">

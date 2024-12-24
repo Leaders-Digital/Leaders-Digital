@@ -6,6 +6,7 @@ import image5 from "../../public/assets/img/portfolio/makeup/2.jpg";
 import imageimmo1 from "../../public/assets/img/portfolio/immo/1.jpg";
 import imagebuidling1 from "../../public/assets/img/portfolio/building/1.jpg";
 import imagebusiness from "../../public/assets/img/portfolio/business/1.jpg";
+import imageibc from "../../public/assets/img/portfolio/ibc/cover-site.jpg";
 
 
 const portfolioData = [
@@ -73,6 +74,23 @@ const portfolioData = [
         image3: image4,        
         image4: image1,     
     },
+
+    {        
+        id: 'ibc',
+        title: 'International business consulting',
+        subdis: 'Bureau d’Avocat',
+        link: "https://avocatclient.netlify.app/",  
+        tags: "Web, CRM, Charte Graphique",  
+        description1: " IBC est un bureau d’avocats spécialisé en affaires internationales et en conseil stratégique. Dans le cadre de leur transformation digitale, nous avons conçu un projet complet incluant le développement d’un site web professionnel, la création d’une charte graphique moderne et l’implémentation d’un CRM sur mesure.",
+        description2: " Le site web met en avant les services juridiques spécialisés et l’expertise internationale du cabinet. Une attention particulière a été portée à l’expérience utilisateur pour faciliter la navigation et l’accès aux informations clés. La charte graphique renforce l’identité visuelle du bureau en reflétant leur sérieux, leur fiabilité et leur vision internationale.",
+        description3: " Nous avons également développé un CRM sur mesure pour optimiser la gestion des clients et des dossiers juridiques. Ce système intuitif améliore l’efficacité des processus internes et garantit une communication fluide avec les clients à l’échelle mondiale..",
+        subtitle: 'Une Présence Digitale Renforcée',
+        image: imageibc,        
+        image2: image1,        
+        image3: image4,        
+        image4: image1,     
+    },
+
 
    
     

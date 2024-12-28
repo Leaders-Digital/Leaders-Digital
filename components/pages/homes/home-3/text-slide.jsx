@@ -10,85 +10,87 @@ const TextSlide = () => {
                             <div className="text-slide">
                                 <div className="sliders scroll">
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>IT Training</h3>
+                                        <h3>Création de Sites Web</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-satellite-signal"></i>
+                                            <i className="fas fa-laptop-code"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Data Science</h3>
+                                        <h3>Marketing Digital</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-satellite-signal"></i>
+                                            <i className="fas fa-bullhorn"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>IT Training</h3>
+                                        <h3>Gestion des Réseaux Sociaux</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-radio-tower"></i>
+                                            <i className="fas fa-share-alt"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Digital Marketing</h3>
+                                        <h3>SEO et Référencement</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-satellite-signal"></i>
+                                            <i className="fas fa-search"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>IT Strategy</h3>
+                                        <h3>Création de Contenus</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-radio-tower"></i>
+                                            <i className="fas fa-pen"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Software Testing</h3>
+                                        <h3>Stratégie Digitale</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-cloud-storage"></i>
+                                            <i className="fas fa-lightbulb"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="sliders scroll">
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>IT Training</h3>
+                                        <h3>Création de Sites Web</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-satellite-signal"></i>
+                                            <i className="fas fa-laptop-code"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Data Science</h3>
+                                        <h3>Marketing Digital</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-satellite-signal"></i>
+                                            <i className="fas fa-bullhorn"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>IT Training</h3>
+                                        <h3>Gestion des Réseaux Sociaux</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-radio-tower"></i>
+                                            <i className="fas fa-share-alt"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Digital Marketing</h3>
+                                        <h3>SEO et Référencement</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-satellite-signal"></i>
+                                            <i className="fas fa-search"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>IT Strategy</h3>
+                                        <h3>Création de Contenus</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-radio-tower"></i>
+                                            <i className="fas fa-pen"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Software Testing</h3>
+                                        <h3>Stratégie Digitale</h3>
                                         <div className="horizontal-scroll-icon">
-                                            <i className="flaticon-cloud-storage"></i>
+                                            <i className="fas fa-lightbulb"></i>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
-            </div>            
+            </div>
         </>
     );
 };

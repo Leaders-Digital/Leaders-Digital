@@ -8,13 +8,14 @@ const Team = () => {
                 <div className="container">
                     <div className="row justify-content-between align-items-end mb-60">
                         <div className="col-xl-6 col-lg-7 col-md-9 team__two-title">
-                            <span className="subtitle-one">Our Team member</span>
-                            <h2>Skilled Specialists</h2>
+                            <span className="subtitle-one">Notre équipe</span>
+                            <h2>Spécialistes compétents</h2>
                         </div>
                         <div className="col-xl-3 col-lg-4 text-lg-end mt-lg-0 mt-3">
-                            <Link href="/team" className="btn-one">See All Member<i className="fas fa-arrow-right"></i></Link>
+                            <Link href="/team" className="btn-one">Voir tous les membres<i className="fas fa-arrow-right"></i></Link>
                         </div>
                     </div>
+
                     <div className="row gy-4 justify-content-center">
                         {teamData?.slice(0, 3).map((data, id) => (
                             <div className="col-xl-4 col-lg-4 col-md-6" key={id}>
@@ -35,10 +36,10 @@ const Team = () => {
                                     </div>
                                 </div>
                             </div>
-                        ))};
+                        ))}
                     </div>
                 </div>
-            </div>            
+            </div>
         </>
     );
 };

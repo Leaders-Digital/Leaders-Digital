@@ -1,0 +1,3 @@
+[1225/164710.388:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1225/164718.682:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1225/172443.234:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.

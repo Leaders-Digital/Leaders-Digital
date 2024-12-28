@@ -12,6 +12,8 @@ import WorkArea from "./work";
 import FooterOne from "@/components/layout/footers/footer-one";
 import Blog from "./blog";
 import Testimonial from "./testimonial";
+import Team from "../home-2/team";
+import TextSlide from "../home-3/text-slide";
 
 const HomeOne = () => {
     return (
@@ -21,8 +23,13 @@ const HomeOne = () => {
             <BannerOne />
             <About />
             <ChooseUs />
+            <TextSlide />
             <Features />
+            <Team />
             <Portfolio />
+      
+            
+           
             {/* <Pricing />
             <WorkArea />*/}
             <Testimonial />

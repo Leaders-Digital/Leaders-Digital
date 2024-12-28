@@ -9,9 +9,11 @@ import ScrollToTop from "../../common/scroll/scroll-to-top";
 const TeamPage = () => {
     return (
         <>
-            <SEO pageTitle='Our Team' />
+            <SEO pageTitle='Notre équipe
+' />
             <HeaderOne />
-            <BreadCrumb title='Our Team' innerTitle='Our Team'/>
+            <BreadCrumb title='Notre équipe' innerTitle='Notre équipe
+'/>
             <TeamMain />
             <FooterOne />
             <ScrollToTop />

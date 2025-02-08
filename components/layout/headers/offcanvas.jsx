@@ -21,7 +21,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 						</div>
 						<div className="header__area-menubar-right-sidebar-popup-contact-item-content">
 							<span>Appelez maintenant</span>
-							<h6><Link href="tel:+125(895)658568">+216 20 000 000</Link></h6>
+							<h6><Link href="tel:+21627246370">+216 27 246 370</Link></h6>
 						</div>
 					</div>
 					<div className="header__area-menubar-right-sidebar-popup-contact-item">
@@ -30,7 +30,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 						</div>
 						<div className="header__area-menubar-right-sidebar-popup-contact-item-content">
 							<span>Email rapide</span>
-							<h6><Link href="mailto:info.help@gmail.com">contact@gmail.com</Link></h6>
+							<h6><Link href="mailto:contact@leaders-digital.com">contact@leaders-digital.com</Link></h6>
 						</div>
 					</div>
 					<div className="header__area-menubar-right-sidebar-popup-contact-item">

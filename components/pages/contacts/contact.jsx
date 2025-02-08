@@ -39,8 +39,7 @@ const ContactUs = () => {
                                     </div>
                                     <div className="contact__two-single-info-content">
                                         <h4>Email</h4>
-                                        <span>contact@leadersdigital.com</span>
-                                        <span>support@leadersdigital.com</span>
+                                        <span>contact@leaders-digital.com</span>
                                     </div>
                                 </div>
                                 <div className="contact__two-single-info">
@@ -49,8 +48,8 @@ const ContactUs = () => {
                                     </div>
                                     <div className="contact__two-single-info-content">
                                         <h4>Contacts</h4>
-                                        <span>(+216) 22 000 000</span>
-                                        <span>(+216) 22 000 000</span>
+                                        <span>(+216) 27 246 375</span>
+                                        <span>(+216) 27 246 370</span>
                                     </div>
                                 </div>
                                 <div className="contact__two-single-info">
@@ -59,8 +58,8 @@ const ContactUs = () => {
                                     </div>
                                     <div className="contact__two-single-info-content">
                                         <h4>Horaires</h4>
-                                        <span>Lundi - Vendredi : 8:30h à 17:30h</span>
-                                        <span>Samedi : 8h à 13h</span>
+                                        <span>Lundi - Vendredi : 8:00h à 17:30h</span>
+                                       
                                     </div>
                                 </div>
                                 <div className="contact__two-single-info">

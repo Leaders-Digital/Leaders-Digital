@@ -61,15 +61,15 @@ const PortfolioDetailsMain = ({singleData}) => {
                             </div>
                         </div>
                     </div>
-                    <div className="project__details-images">
+                    {/* <div className="project__details-images">
                   
                         <img src={image3.src} alt="image" />
                               <img src={singleData.image3.src} alt="image" />
-                    </div>
-                    <div className="project__details-images">
+                    </div> */}
+                    {/* <div className="project__details-images">
                         <img src={image3.src} alt="image" />
                         <img src={image2.src} alt="image" />
-                    </div>
+                    </div> */}
                     <div className="project__details-content">
                         <div className="project__details-content-bottom">
                             <p>{singleData.description3}</p>

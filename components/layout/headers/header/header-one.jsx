@@ -29,7 +29,7 @@ const HeaderOne = ({variant}) => {
                 <div className="row">
                     <div className="col-xl-7 col-md-7">
                         <div className="top__bar-left">
-                            <Link href="tel:+21627246380"><i className="fas fa-phone-alt"></i>(+216) 27 246 380</Link>
+                            <Link href="tel:+21627246370"><i className="fas fa-phone-alt"></i>(+216) 27 246 370</Link>
                             <Link href="mailto:Contact@leaders-digital.com"><i className="fas fa-envelope"></i>Contact@leaders-digital.com</Link>
                         </div>
                     </div>

@@ -25,7 +25,7 @@ const HomeOne = () => {
             <ChooseUs />
             <TextSlide />
             <Features />
-            <Team />
+            {/* <Team /> */}
             <Portfolio />
       
             
